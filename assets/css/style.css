@@ -1,13 +1,55 @@
-@import "UTF8";
-@import url("/assets/css/grid-system");
+@import url("/assets/css/grid-system.css");
 @font-face {
   font-family: Vazir-Medium;
-  src: url("/fonts/Vazir-Medium.ttf") format("truetype"),
-    url("/fonts/Vazir-Medium.eot") format("eot"),
-    url("/fonts/Vazir-Medium.woff") format("woff"),
-    url("/fonts/Vazir-Medium.woff2") format("woff2");
+  src: url("/assets/fonts/Vazir-Medium.ttf") format("truetype"),
+    url("/assets/fonts/Vazir-Medium.eot") format("eot"),
+    url("/assets/fonts/Vazir-Medium.woff") format("woff"),
+    url("/assets/fonts/Vazir-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: Vazir-Thin;
+  src: url("/assets/fonts/Vazirmatn-Thin.woff2") format("woff2");
+  
+}
+
+.container-fluid-custom{
+  background-color: #3498db;
+  line-height: 30px;
+  color: #ecf0f1;
+}
+
+.container .contact{
+  font-size: 15px;
+}
+
+.container .contact i{
+  margin-right: 24px;
+  color: #f39c12;
+}
+
+.container .contact span{
+  padding: 8px;
+  font-family: "Vazir-Thin";
+  color: #ecf0f1;
+}
+
+.container .social{
+  direction: ltr;
+  padding-left: 55px;
+}
+
+.container .social a i{
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.container .social a i:hover{
+  background-color: #f39c12;
+}
+
+
 
 

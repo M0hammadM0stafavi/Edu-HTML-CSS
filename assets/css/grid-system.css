@@ -88,6 +88,9 @@ li {
 }
 
 @media only screen and (max-width: 576px) {
+  .xs-hidden {
+    display: none!important;
+  }
   .col-xs-1 {
     width: 8.33%;
   }
@@ -165,7 +168,10 @@ li {
   }
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .s-hidden {
+    display: none!important;
+  }
   .col-s-1 {
     width: 8.33%;
   }
