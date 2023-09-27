@@ -1,0 +1,13 @@
+@import "UTF8";
+@import url("/assets/css/grid-system");
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("/fonts/Vazir-Medium.ttf") format("truetype"),
+    url("/fonts/Vazir-Medium.eot") format("eot"),
+    url("/fonts/Vazir-Medium.woff") format("woff"),
+    url("/fonts/Vazir-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
