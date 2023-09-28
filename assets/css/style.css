@@ -14,6 +14,7 @@
   
 }
 
+/* Start Contact Section Style  */
 .container-fluid-custom{
   background-color: #3498db;
   line-height: 30px;
@@ -49,6 +50,8 @@
 .container .social a i:hover{
   background-color: #f39c12;
 }
+
+/* End Contact Section Style  */
 
 
 
