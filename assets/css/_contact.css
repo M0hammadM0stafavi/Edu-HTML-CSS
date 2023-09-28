@@ -1,0 +1,38 @@
+/* Start Contact Section Style  */
+.container-fluid-custom{
+  background-color: #3498db;
+  line-height: 30px;
+  color: #ecf0f1;
+}
+
+.container .contact{
+  font-size: 15px;
+}
+
+.container .contact i{
+  margin-right: 24px;
+  color: #f39c12;
+}
+
+.container .contact span{
+  padding: 8px;
+  font-family: "Vazir-Thin";
+  color: #ecf0f1;
+}
+
+.container .social{
+  direction: ltr;
+  padding-left: 55px;
+}
+
+.container .social a i{
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.container .social a i:hover{
+  background-color: #f39c12;
+}
+
+/* End Contact Section Style  */
