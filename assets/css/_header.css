@@ -1,0 +1,64 @@
+/* Start Header Section Layout */
+
+header .img-header {
+  min-height: 86vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-height: 86vh;
+}
+
+.header-title {
+  position: relative;
+  max-width: 460px;
+  margin: 180px;
+  padding: 25px;
+  color: #34495e;
+}
+
+.header-title a {
+  position: absolute;
+  bottom: 2px;
+  left: 5px;
+  padding: 10px;
+  background-color: #e67e22;
+  border-radius: 3px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1050px) {
+  .header-title {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .header-title a{
+    font-size: 8px;
+    padding: 3px;
+  }
+
+  .img-header {
+    min-height: 100% !important;
+  }
+  .overlay {
+    min-height: 100% !important;
+  }
+}
+
+/* End Header Section Layout */
