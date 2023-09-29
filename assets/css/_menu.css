@@ -3,6 +3,8 @@
   background-color: #ecf0f1;
   overflow: hidden;
   box-shadow: 1px 1px 1px 1px #efefef;
+  position: sticky;
+  top: 0;
 }
 
 .nav a{
