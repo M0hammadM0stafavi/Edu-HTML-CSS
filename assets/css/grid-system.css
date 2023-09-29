@@ -55,6 +55,14 @@ li {
   margin-top: 20px;
 }
 
+.absolute{
+  position: absolute!important;
+}
+
+.relative{
+  position: relative!important;
+}
+
 .round-corner {
   border-radius: 5px;
 }
