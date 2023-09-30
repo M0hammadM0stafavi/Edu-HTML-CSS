@@ -47,12 +47,20 @@ li {
   box-shadow: 0px 0px 2px 0px #d0d0d0;
 }
 
+.m-50{
+  margin: 50px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .absolute{
@@ -70,6 +78,7 @@ li {
 .img-responsive {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .container-fluid {
