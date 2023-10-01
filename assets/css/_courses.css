@@ -23,61 +23,60 @@
   right: -59px;
 }
 
-.card{
+.card {
   box-shadow: 1px 1px 1px 1px #efefef;
   border-radius: 3px;
   background-color: #fff;
 }
 
-.card-header img{
+.card-header img {
   border-radius: 2px;
 }
 
-.card-overlay{
-  background: rgba(0, 0, 0, .5);
+.card-overlay {
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   right: 0;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   opacity: 0;
 }
 
-.card:hover .card-overlay{
+.card:hover .card-overlay {
   opacity: 1;
   cursor: pointer;
 }
 
-.course-title{
+.course-title {
   top: 0;
   right: 70px;
 }
 
-.card-body .course-icon{
+.card-body .course-icon {
   width: 32px;
   height: 32px;
   margin: 9px 15px 0 5px;
-  filter: brightness(.5);
+  filter: brightness(0.5);
 }
 
-.course-title a{
+.course-title a {
   font-size: 14px;
 }
 
-.course-title p{
+.course-title p {
   font-size: 12px;
 }
 
-.card-overlay p{
+.card-overlay p {
   color: #fff;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.course-wrapper{
+.course-wrapper {
   background-attachment: fixed;
   background-image: url("../img/common.jpg");
 }
-

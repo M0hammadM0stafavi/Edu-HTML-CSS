@@ -1,0 +1,44 @@
+/* Start About Us Section Style  */
+
+.about-us-left{
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 60px;
+    border-radius: 3px;
+}
+
+.about-us-left h4{
+    padding-bottom: 35px;
+    font-size: 18px;
+    border-bottom: 1px solid #95a5a6;
+    padding-bottom: 15px;
+}
+
+.about-us-left p{
+    font-size: 15px;
+    padding: 20px;
+    line-height: 26px;
+}
+
+.about-us-left a{
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    padding: 10px;
+    background-color: #e67e22;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .5s ease;
+}
+
+.about-us-left a:hover{
+    border-radius: 0 10px 0 10px;
+}
+
+@media screen and (max-width:768px){
+    .about-us-right{
+        display: none;
+    }
+}
+

@@ -3,6 +3,8 @@
 @import url("/assets/css/_menu.css");
 @import url("/assets/css/_header.css");
 @import url("/assets/css/_courses.css");
+@import url("/assets/css/_aboutus.css");
+
 @font-face {
   font-family: Vazir-Medium;
   src: url("/assets/fonts/Vazir-Medium.ttf") format("truetype"),
