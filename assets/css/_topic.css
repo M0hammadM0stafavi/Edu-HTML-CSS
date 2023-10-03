@@ -1,0 +1,77 @@
+/* Start Topic Section */
+
+.topic-section-wrapper {
+  margin-top: 100px;
+  background-image: url("../img/topic-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.topic-wrapper .card-header {
+  overflow: hidden;
+}
+
+.topic-wrapper .card {
+  box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05) !important;
+}
+
+.topic-wrapper img {
+  transition: all 0.5s ease;
+}
+
+.topic-wrapper:hover img {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+}
+
+.topic-wrapper .card-body {
+  margin: 30px 10px;
+}
+
+.topic-wrapper .card-body a {
+  font-size: 16px;
+  padding: 7px;
+  color: #7f8c8d;
+}
+
+.topic-wrapper .card-body p {
+  font-size: 14px;
+  padding: 7px;
+  line-height: 28px;
+  color: #95a5a6;
+}
+
+.topic-wrapper .post-date {
+  top: -57px;
+  right: 15px;
+  font-size: 16px;
+  color: #fff;
+  width: 35px;
+  text-align: center;
+}
+
+.topic-wrapper .post-date div:first-child {
+  background-color: #f39c12;
+}
+
+.topic-wrapper .post-date div:last-child {
+  background-color: #bdc3c7;
+}
+
+.topic-wrapper .card-footer {
+  border-top: 1px solid #ecf0f1;
+  padding: 8px 0 2px 0;
+}
+
+.topic-wrapper .card-footer ul li {
+  display: inline-block;
+  padding: 0 8px;
+  color: #bdc3c7;
+  font-size: 15px;
+}
+
+.topic-wrapper .card-footer i,
+span {
+  padding: 1px 4px;
+}
