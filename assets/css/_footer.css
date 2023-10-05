@@ -1,0 +1,94 @@
+/* Start Footer Section Layout */
+
+.footer-section-wrapper {
+  background-color: #2c3e50;
+  min-height: 300px;
+  color: #bdc3c7;
+  font-size: 13px;
+}
+
+.footer-section-wrapper .desk i {
+  color: #2ecc71;
+      font-size: 24px;
+    padding-left: 7px;
+}
+
+.footer-section-wrapper .desk span {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-section-wrapper .copyright {
+  font-size: 13px;
+  text-align: center;
+  border-top: 1px dashed #f39c12;
+  padding: 5px 0 0 5px;
+}
+
+.footer-section-wrapper .service h6,
+.footer-social h6,
+.contact-us h6 {
+  font-size: 14px;
+  border-bottom: 1px solid #34495e;
+  padding-bottom: 11px;
+}
+
+.footer-section-wrapper .service ul {
+  padding: 10px 0 40px 0;
+}
+
+.footer-section-wrapper .service a::before {
+  content: "\276f";
+  padding: 50px 10px;
+  vertical-align: -3px;
+}
+
+.footer-section-wrapper .footer-social ul {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-section-wrapper .footer-social li {
+  display: inline-block;
+  font-size: 19px;
+  padding: 0 7px;
+}
+
+.footer-section-wrapper .footer-social li i {
+  color: #f39c12;
+}
+
+.footer-section-wrapper .footer-social form {
+  margin-top: 30px;
+}
+
+.footer-section-wrapper .footer-social form input[type="submit"] {
+  left: 0;
+  background-color: #f39c12;
+  border: none;
+  outline: none;
+  line-height: 37px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-section-wrapper .footer-social form input[type="text"] {
+  direction: rtl;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.footer-section-wrapper .contact-us li {
+  padding: 8px;
+}
+
+.footer-section-wrapper .contact-us li i {
+  color: #f39c12;
+  padding-left: 7px;
+}
+
+

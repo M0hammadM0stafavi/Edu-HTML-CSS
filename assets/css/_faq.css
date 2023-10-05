@@ -38,12 +38,9 @@
   color: #7f8c8d;
 }
 
-
-.faq-left-side{
+.faq-left-side {
   margin: 50px 0;
 }
-
-
 
 .faq-left-side .tabs {
   border-radius: 8px;
@@ -61,8 +58,9 @@
   padding: 10px;
   width: 100%;
   display: block;
-  transition: .5s;
+  transition: 0.5s;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .faq-left-side .tab-label:hover {
@@ -93,7 +91,6 @@
   height: 70px;
   padding: 10px;
   overflow-y: scroll;
-  
 }
 
 .faq-left-side input:checked + .tab-label::after {
