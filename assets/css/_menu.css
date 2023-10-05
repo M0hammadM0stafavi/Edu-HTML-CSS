@@ -1,5 +1,5 @@
 /* Start Menu Section Style */
-.nav{
+.nav {
   background-color: #ecf0f1;
   overflow: hidden;
   box-shadow: 1px 1px 1px 1px #efefef;
@@ -8,45 +8,43 @@
   z-index: 999;
 }
 
-.nav a{
+.nav a {
   display: inline-block;
-  padding: 10px 12px;
-
+  padding: 14px 18px;
 }
 
-.nav a:hover{
+.nav a:hover {
   color: #f39c12;
   border-bottom: 1px solid #f39c12;
 }
 
-.nav a.bars{
+.nav a.bars {
   display: none;
 }
 
-@media only screen and (max-width: 576px){
-  .nav a:not(:first-child){
+@media only screen and (max-width: 576px) {
+  .nav a:not(:first-child) {
     display: none;
   }
 
-  .nav a.bars{
+  .nav a.bars {
     display: block;
     float: left;
   }
 
-  .nav{
+  .nav {
     position: relative;
   }
 
-  .nav.responsive a{
+  .nav.responsive a {
     display: block;
   }
 
-  .nav.responsive a.bars{
+  .nav.responsive a.bars {
     position: absolute;
     top: 0;
     left: 0;
   }
-
 }
 
 /* End Menu Section Style */
